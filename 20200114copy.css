@@ -1,0 +1,106 @@
+
+#box{
+  width: 750px;
+  height: 1334px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#_1head{
+  width: 750px;
+  height: 220px;
+  padding: 0;
+  margin: 0;
+}
+#_1headfirst{
+  text-align: center;
+  margin: 5px;
+}
+#_1headfirstbutt{
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: xx-large;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#_1headsecond{
+  width: 749px;
+  height: 118px;
+}
+#_1headsecondbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: xx-large;
+}
+#_1headseconditem1{
+  text-align: center;
+  margin: 0 auto;
+}
+#_1headseconditem2{
+  text-align: center;
+  margin: 0 auto;
+}
+#_1headseconditem3{
+  text-align: center;
+  margin: 0 auto;
+}
+
+#_1body{
+  font-family: 'Noto Serif KR', serif;
+  width: 750px;
+  height: 1000px;
+  margin: 0 auto;
+}
+#_1bodybox0{
+  display: inline-block;
+  padding: 30px;
+  width: 750px;
+  height: 1000px;
+  text-align: center;
+}
+#_1bodybox0item{
+  text-align: center;
+  font-size: x-large;
+  height: 600px;
+  line-height:180%;
+  letter-spacing: 2px;
+}
+#_1bodybox1{
+  margin-top: 0px;
+  display: none;
+  text-align: center;
+  font-size: x-large;
+  width: 750px;
+  height: 1000px;
+  line-height:180%;
+  letter-spacing: 2px;
+}
+#_1bodybox2{
+  margin-top: 0px;
+  display: none;
+  text-align: center;
+  font-size: x-large;
+  width: 750px;
+  height: 1000px;
+  line-height:180%;
+  letter-spacing: 2px;
+}
+#_1bodybox3{
+  margin-top: 0px;
+  display: none;
+  text-align: center;
+  font-size: x-large;
+  width: 750px;
+  height: 1000px;
+  line-height:180%;
+  letter-spacing: 2px;
+}
+#_1foot{
+
+  border-radius: 10px;
+  width: 750px;
+  height: 110px;
+}
