@@ -20,9 +20,19 @@
   margin: 5px;
 }
 #_1headfirstbutt{
+  display: inline-block;
   background: #74ebd5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: xx-large;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#_1headfirstbutt2{
+  display: none;
+
+  background: #E55D87;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-size: xx-large;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -98,9 +108,48 @@
   line-height:180%;
   letter-spacing: 2px;
 }
-#_1foot{
+#_1bodybox4{
 
-  border-radius: 10px;
+  margin-top: 0px;
+  display: none;
+  text-align: center;
+  font-size: x-large;
   width: 750px;
-  height: 110px;
+  height: 1000px;
+  line-height:180%;
+  letter-spacing: 2px;
+}
+#_1foot1{
+  display: inline-block;
+
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+  border-radius: 5px;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  line-height:300%;
+  letter-spacing: 2px;
+  width: 750px;
+  height: 100px;
+}
+#_1foot2{
+  display: none;
+  background: #E55D87;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  border-radius: 5px;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  line-height:300%;
+  letter-spacing: 2px;
+  width: 750px;
+  height: 100px;
 }
