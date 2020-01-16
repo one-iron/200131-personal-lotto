@@ -165,8 +165,35 @@
   height: 100px;
 }
 #result{
-  color: darkgray;
   width: 700px;
   height: 400px;
-  font-size: xx-large;
+  overflow: auto;
+  margin: 0 auto;
+}
+.ui.red.button,.ui.orange.button,.ui.olive.button,.ui.green.button,.ui.teal.button,.ui.violet.button,.ui.yellow.button,.ui.pink.button,.ui.purple.button,.ui.blue.button{
+  font-size: x-large;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
+#detail{
+  margin: 50px auto;
+}
+#reset2{
+  color: white;
+
+  font-size: small;
+  padding-top: 10px;
+  text-align: center;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  background: #1CD8D2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }

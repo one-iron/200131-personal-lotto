@@ -50,6 +50,14 @@ function out() {
   var no = document.createTextNode(result1[0].sort(function(a,b) {return a-b;
   }));
   li.appendChild(no);
-  var cr = Math.floor(Math.random()*10+1)
-  document.getElementById('result').appendChild(li).className = "ui "+color[cr]+" button";
+  var cr = Math.floor(Math.random()*10)
+  document.getElementById('result').appendChild(li).className = "ui inverted "+color[cr]+" button";
+}
+
+function reset2() {
+  result1.splice(0, result1.length);
+  var list = document.getElementById("result");
+  while (list.hasChildNodes()) {
+    list.removeChild(list.firstChild);
+  }
 }
