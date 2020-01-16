@@ -43,8 +43,11 @@ var color = ["red","orange","olive","green","teal","violet","yellow","pink","pur
 
 function out() {
   result1.unshift([]);
-  for(i = 1; i <= 6; i++){
-    result1[0].push(Math.floor(Math.random()*45 + 1));
+  for(i = 0; result1[0].length <= 5; i++){
+    var num = Math.floor(Math.random() * 45 + 1);
+    if(result1[0].indexOf(num) == -1){
+      result1[0].push(num);
+    }
   }
   var li = document.createElement("button");
   var no = document.createTextNode(result1[0].sort(function(a,b) {return a-b;
