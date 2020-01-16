@@ -1,3 +1,4 @@
+
 function _1headmenu(n) {
   var a_sel = document.querySelector(".ui.secondary.pointing.menu");
   var u_sel = document.querySelector("#_1body");
@@ -34,4 +35,21 @@ function _1headmenu(n) {
     document.getElementById('_1headfirstbutt').style.display = "none";
     document.getElementById('_1headfirstbutt2').style.display = "inline-block";
   }
+}
+
+var result1 = [];
+var color = ["red","orange","olive","green","teal","violet","yellow","pink","purple","blue"]
+
+
+function out() {
+  result1.unshift([]);
+  for(i = 1; i <= 6; i++){
+    result1[0].push(Math.floor(Math.random()*45 + 1));
+  }
+  var li = document.createElement("button");
+  var no = document.createTextNode(result1[0].sort(function(a,b) {return a-b;
+  }));
+  li.appendChild(no);
+  var cr = Math.floor(Math.random()*10+1)
+  document.getElementById('result').appendChild(li).className = "ui "+color[cr]+" button";
 }

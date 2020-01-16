@@ -153,3 +153,20 @@
   width: 750px;
   height: 100px;
 }
+
+#select{
+  border: 1px lightgray solid;
+  width: 700px;
+  height: 300px;
+}
+#list{
+  border: 1px lightgray solid;
+  width: 700px;
+  height: 100px;
+}
+#result{
+  color: darkgray;
+  width: 700px;
+  height: 400px;
+  font-size: xx-large;
+}
