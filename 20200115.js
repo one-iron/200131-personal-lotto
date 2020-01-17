@@ -38,7 +38,7 @@ function _1headmenu(n) {
 }
 
 var result1 = [];
-var color = ["red","orange","olive","green","teal","violet","yellow","pink","purple","blue"]
+var color = ["red","orange","olive","green","brown","violet","yellow","pink","purple","blue"]
 
 
 function out() {
