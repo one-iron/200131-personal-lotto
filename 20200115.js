@@ -120,7 +120,7 @@ function reset2() {
 }
 
 function delnum(n) {
-  if(random6num.indexOf(n) == -1 && winnums.indexOf(n) == -1){
+  if(random6num.indexOf(n) == -1){
     document.getElementById('n'+n).className = "ui basic button";
     document.getElementById('n'+n).style.textDecoration = "line-through red";
     random6num.push(n);
