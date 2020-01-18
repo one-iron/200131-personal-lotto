@@ -15,6 +15,9 @@
     <!--noto serif 폰트 경로 시작 -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
     <!--noto serif 폰트 경로 끝 -->
+    <!--Nanum Myeongjo 폰트 경로 시작 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <!--Nanum Myeongjo 폰트 경로 끝 -->
     <title>one-iron-project</title>
   </head>
   <body>
@@ -22,10 +25,10 @@
       <div id="_1head">
         <div id="_1headfirst">
           <button class="ui circular facebook icon button" id="_1headfirstbutt" onclick="_1headmenu(0)">
-            <p>C . O . H</p>
+            <p>행복회로</p>
           </button>
           <button class="ui circular facebook icon button" id="_1headfirstbutt2" onclick="_1headmenu(0)">
-            <p>C . O . H</p>
+            <p>행복회로</p>
           </button>
         </div>
         <div id="_1headsecond">
@@ -76,17 +79,103 @@
         </div>
         <div class="ui segment" id="_1bodybox4">
           <h5>You are in C . O . H</h5><hr>
-          <div id="select"></div>
-          <div id="list"></div>
+          <div id="nums">
+            <div>
+              <button class="ui circular facebook icon button" id="n1">1</button>
+              <button class="ui circular facebook icon button" id="n2">2</button>
+              <button class="ui circular facebook icon button" id="n3">3</button>
+              <button class="ui circular facebook icon button" id="n4">4</button>
+              <button class="ui circular facebook icon button" id="n5">5</button>
+              <button class="ui circular facebook icon button" id="n6">6</button>
+              <button class="ui circular facebook icon button" id="n7">7</button>
+              <button class="ui circular facebook icon button" id="n8">8</button>
+              <button class="ui circular facebook icon button" id="n9">9</button>
+              <button class="ui circular facebook icon button" id="n10">10</button>
+            </div>
+            <div>
+              <button class="ui circular facebook icon button" id="n11">11</button>
+              <button class="ui circular facebook icon button" id="n12">12</button>
+              <button class="ui circular facebook icon button" id="n13">13</button>
+              <button class="ui circular facebook icon button" id="n14">14</button>
+              <button class="ui circular facebook icon button" id="n15">15</button>
+              <button class="ui circular facebook icon button" id="n16">16</button>
+              <button class="ui circular facebook icon button" id="n17">17</button>
+              <button class="ui circular facebook icon button" id="n18">18</button>
+              <button class="ui circular facebook icon button" id="n19">19</button>
+              <button class="ui circular facebook icon button" id="n20">20</button>
+            </div>
+            <div>
+              <button class="ui circular facebook icon button" id="n21">21</button>
+              <button class="ui circular facebook icon button" id="n22">22</button>
+              <button class="ui circular facebook icon button" id="n23">23</button>
+              <button class="ui circular facebook icon button" id="n24">24</button>
+              <button class="ui circular facebook icon button" id="n25">25</button>
+              <button class="ui circular facebook icon button" id="n26">26</button>
+              <button class="ui circular facebook icon button" id="n27">27</button>
+              <button class="ui circular facebook icon button" id="n28">28</button>
+              <button class="ui circular facebook icon button" id="n29">29</button>
+              <button class="ui circular facebook icon button" id="n30">30</button>
+            </div>
+            <div>
+              <button class="ui circular facebook icon button" id="n31">31</button>
+              <button class="ui circular facebook icon button" id="n32">32</button>
+              <button class="ui circular facebook icon button" id="n33">33</button>
+              <button class="ui circular facebook icon button" id="n34">34</button>
+              <button class="ui circular facebook icon button" id="n35">35</button>
+              <button class="ui circular facebook icon button" id="n36">36</button>
+              <button class="ui circular facebook icon button" id="n37">37</button>
+              <button class="ui circular facebook icon button" id="n38">38</button>
+              <button class="ui circular facebook icon button" id="n39">39</button>
+              <button class="ui circular facebook icon button" id="n40">40</button>
+            </div>
+            <div>
+              <button class="ui circular facebook icon button" id="n41">41</button>
+              <button class="ui circular facebook icon button" id="n42">42</button>
+              <button class="ui circular facebook icon button" id="n43">43</button>
+              <button class="ui circular facebook icon button" id="n44">44</button>
+              <button class="ui circular facebook icon button" id="n45">45</button>
+            </div>
+          </div>
+          <div id="select">
+            <select class="ui dropdown" id="selectmenu">
+              <option value="">행복회로</option>
+              <option value="0">랜덤 6개 번호</option>
+              <option value="1">최근 당첨 번호</option>
+            </select>
+            <script>$('.ui.dropdown').dropdown();</script>
+            <button class="ui basic button" onclick="dele()">DELETE</button>
+            <button class="ui basic button" onclick="reset1()">RESET</button>
+            <button class="ui basic button"  id="test">LIST</button>
+            <div class="ui modal test">
+              <i class="close icon"></i>
+              <h1 id="h1">제외 중인 번호들</h1><hr>
+              <div id="listnums"><font size="xx-large"></font></div>
+              <div class="actions">
+                <div class="ui positive right labeled icon button">
+                  확인
+                <i class="checkmark icon"></i>
+                </div>
+              </div>
+            </div>
+            <script>
+            $(function(){
+            	$("#test").click(function(){
+            		$(".test").modal('show');
+            	});
+            	$(".test").modal({
+            		closable: true
+            	});
+            });
+            </script>
+          </div>
           <div id="result"></div>
           <div id="detail">
             <div id="reset2" onclick="reset2()">reset</div>
           </div>
         </div>
-
       </div>
-      <div id="_1foot1" onclick="_1headmenu(4)"> Go in to C . O . H</div>
-      <div id="_1foot2" onclick="out()"> Operate Full C . O . H </div>
+      <div id="_1foot1" onclick="_1headmenu(4)">행복회로 들어가기</div>
+      <div id="_1foot2" onclick="out()">행복회로 가동하기</div>
     </div>
   </body>
 

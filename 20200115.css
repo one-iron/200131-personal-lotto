@@ -20,6 +20,7 @@
   margin: 5px;
 }
 #_1headfirstbutt{
+  font-family: 'Nanum Myeongjo', serif;
   display: inline-block;
   background: #74ebd5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -29,7 +30,7 @@
 }
 #_1headfirstbutt2{
   display: none;
-
+  font-family: 'Nanum Myeongjo', serif;
   background: #E55D87;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -120,7 +121,9 @@
   letter-spacing: 2px;
 }
 #_1foot1{
+  font-family: 'Nanum Myeongjo', serif;
   display: inline-block;
+  font-weight: bolder;
 
   background: #74ebd5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -139,6 +142,8 @@
 }
 #_1foot2{
   display: none;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bolder;
   background: #E55D87;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -154,34 +159,35 @@
   height: 100px;
 }
 
-#select{
-  border: 1px lightgray solid;
+#nums{
   width: 700px;
-  height: 300px;
+  height: 320px;
 }
-#list{
-  border: 1px lightgray solid;
+#select{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 30px auto 30px auto;
   width: 700px;
-  height: 100px;
+  height: 50px;
+  font-size: large;
 }
 #result{
   width: 700px;
   height: 400px;
   overflow: auto;
-  margin: 0 auto;
+  margin-bottom: -20px;
+  margin-top: -15px;
 }
 .ui.red.button,.ui.orange.button,.ui.olive.button,.ui.green.button,.ui.brown.button,.ui.violet.button,.ui.yellow.button,.ui.pink.button,.ui.purple.button,.ui.blue.button{
   font-size: x-large;
   text-align: center;
   margin: 10px 10px 10px 10px;
 }
-
 #detail{
   margin: 50px auto;
 }
 #reset2{
   color: white;
-
   font-size: small;
   padding-top: 10px;
   text-align: center;
@@ -194,6 +200,28 @@
   background: #1CD8D2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+}
+.ui.modal.test{
+  font-size: xx-large;
+}
+#h1{
+  font-family: 'Noto Serif KR', serif;
+}
+#listnums{
+  font-family: 'Noto Serif KR', serif;
+  font-size: xx-large;
+  margin-bottom: 80px;
+  text-align: center;
+}
+#n1, #n2,#n3,#n4,#n5,#n6,#n7,#n8,#n9,#n10,
+#n11,#n12,#n13,#n14,#n15,#n16,#n17,#n18,#n19,#n20,
+#n21,#n22,#n23,#n24,#n25,#n26,#n27,#n28,#n29,#n30,
+#n31,#n32,#n33,#n34,#n35,#n36,#n37,#n38,#n39,#n40,
+#n41,#n42,#n43,#n44,#n45{
+    height: 55px;
+    width: 55px;
+    border-radius: 60%;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
