@@ -1,6 +1,7 @@
 var result1 = [];
 var random6num = [];
 var winnums = [1,15,17,23,25,41];
+var winnumscheck = [];
 var color = ["red","orange","olive","green","brown","violet","yellow","pink","purple","blue"]
 
 function _1headmenu(n) {
@@ -82,17 +83,24 @@ function random6() {
   document.getElementById('listnums').appendChild(li).className = "ui button";
 }
 function winnum(){
-  for(i = 0; i <= 5; i++){
-    document.getElementById('n'+ winnums[i]).className = "ui basic button";
-    document.getElementById('n'+ winnums[i]).style.textDecoration = "line-through red";
+  if(winnumscheck.indexOf('0') == 0){
+    alert('이미 최근 당첨 번호를 선택하셨습니다.')
   }
-  random6num.push("["+winnums+"]");
-  var li = document.createElement("button");
-  var no = document.createTextNode("최근 당첨 번호 : "+ winnums);
-  li.appendChild(no);
-  document.getElementById('listnums').appendChild(li).className = "ui button";
+  else {
+    for(i = 0; i <= 5; i++){
+      document.getElementById('n'+ winnums[i]).className = "ui basic button";
+      document.getElementById('n'+ winnums[i]).style.textDecoration = "line-through red";
+    }
+    random6num.push("["+winnums+"]");
+    winnumscheck.push('0');
+    var li = document.createElement("button");
+    var no = document.createTextNode("최근 당첨 번호 : "+ winnums);
+    li.appendChild(no);
+    document.getElementById('listnums').appendChild(li).className = "ui button";
+  }
 }
 function reset1(){
+  winnumscheck.splice(0,winnumscheck.length);
   random6num.splice(0,random6num.length);
   for(i = 1; i <= 45; i++){
     document.getElementById('n'+ i).className="ui circular facebook icon button";

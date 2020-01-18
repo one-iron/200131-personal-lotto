@@ -166,7 +166,7 @@
 #select{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 30px auto 30px auto;
+  margin: 30px auto 15px auto;
   width: 700px;
   height: 50px;
   font-size: large;
@@ -204,8 +204,10 @@
 .ui.modal.test{
   font-size: xx-large;
 }
+
 #h1{
   font-family: 'Noto Serif KR', serif;
+  padding: 20px;
 }
 #listnums{
   font-family: 'Noto Serif KR', serif;
@@ -213,6 +215,8 @@
   margin-bottom: 80px;
   text-align: center;
 }
+
+
 #n1, #n2,#n3,#n4,#n5,#n6,#n7,#n8,#n9,#n10,
 #n11,#n12,#n13,#n14,#n15,#n16,#n17,#n18,#n19,#n20,
 #n21,#n22,#n23,#n24,#n25,#n26,#n27,#n28,#n29,#n30,

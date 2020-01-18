@@ -143,9 +143,9 @@
               <option value="1">최근 당첨 번호</option>
             </select>
             <script>$('.ui.dropdown').dropdown();</script>
-            <button class="ui basic button" onclick="dele()">DELETE</button>
-            <button class="ui basic button" onclick="reset1()">RESET</button>
-            <button class="ui basic button"  id="test">LIST</button>
+            <button class="positive ui button" id="del"onclick="dele()">DELETE</button>
+            <button class="negative ui button" onclick="reset1()">RESET</button>
+            <button class="ui linkedin button"  id="test">LIST</button>
             <div class="ui modal test">
               <i class="close icon"></i>
               <h1 id="h1">제외 중인 번호들</h1><hr>
@@ -168,6 +168,7 @@
             });
             </script>
           </div>
+          <hr>
           <div id="result"></div>
           <div id="detail">
             <div id="reset2" onclick="reset2()">reset</div>
