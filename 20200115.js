@@ -111,11 +111,27 @@ function reset1(){
     list.removeChild(list.firstChild);
   }
 }
-
 function reset2() {
   result1.splice(0, result1.length);
   var list = document.getElementById("result");
   while (list.hasChildNodes()) {
     list.removeChild(list.firstChild);
   }
+}
+
+function delnum(n) {
+  if(random6num.indexOf(n) == -1 && winnums.indexOf(n) == -1){
+    document.getElementById('n'+n).className = "ui basic button";
+    document.getElementById('n'+n).style.textDecoration = "line-through red";
+    random6num.push(n);
+    var li = document.createElement("button");
+    var no = document.createTextNode("직접 선택 번호 : "+ n);
+    li.appendChild(no);
+    document.getElementById('listnums').appendChild(li).className = "ui button";
+  }
+  else(
+    alert('선택하신 번호는 이미 제외 항목에 포함 되어 있습니다.')
+  )
+
+
 }
