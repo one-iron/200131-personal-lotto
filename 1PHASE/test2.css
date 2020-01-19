@@ -1,0 +1,76 @@
+#main1 {
+  display: grid;
+  grid-template-columns:3fr 2fr 1fr;
+  height: 300px;
+  border: solid 2px black;
+  padding: 10px;
+  margin: 50px;
+  background-color: #EDFAFD;
+}
+#main1Butt1{
+  border: solid 2px red;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+#btn1{
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+  background-color: #66cdaa;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius:10px;
+  transition: all 0.1s;
+  border-bottom: 4px solid #3cb371;
+  text-shadow: 0px 1px #778899;
+  font-family: 'Jua', sans-serif;
+}
+#btn1:active{
+  transform: translateY(2px);
+  border-bottom: 1px solid #66cdaa;
+}
+#btn2{
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+  background-color: #9370db;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius:10px;
+  transition: all 0.1s;
+  border-bottom: 4px solid #7b68ee;
+  text-shadow: 0px 1px #778899;
+  font-family: 'Jua', sans-serif;
+}
+#btn2:active{
+  transform: translateY(2px);
+  border-bottom: 1px solid #9370db;
+}
+#sel1{
+  font-size: 11px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px #66cdaa solid;
+  padding: 2px;
+  font-family: 'Noto Serif KR', serif;
+  margin-bottom: 0px;
+}
+#main1ListBox{
+  border: solid 2px red;
+  text-align: center;
+  font-size: 11px;
+  padding: 10px;
+  margin: 10px;
+}
+#main2 {
+  display: grid;
+  grid-template-columns:3fr 3fr 1fr;
+  height: 300px;
+  border: solid 2px black;
+}
+#main2ListBox{
+  border: solid 2px red;
+  text-align: center;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="widt=device-width">
+  <title>Happy</title>
+  <style>
+    #sel {
+      display: grid;
+      grid-template-columns:2fr 1fr 1fr;
+    }
+      #but {
+      text-align: center;
+      border: solid 1px red;
+    }
+      #sl {
+      text-align: center;
+      border: solid 1px red;
+    }
+      #re1 {
+      text-align: center;
+      border: solid 1px red;
+    }
+
+    #res {
+      display: grid;
+      grid-template-columns:2fr 1fr 1fr;
+    }
+      #rl {
+      text-align: center;
+      border: solid 1px red;
+    }
+      #res div {
+      text-align: center;
+      border: solid 1px red;
+    }
+      #but2 {
+      text-align: center;
+      border: solid 1px red;
+    }
+  </style>
+  <script>
+    var list1 = [];
+    var list2 = [];
+
+    function algo1(){
+      if(list1.includes("1번 회로") == false){
+        list1.push("1번 회로","\n");
+        document.getElementById("sl").innerHTML = list1;
+      }
+    }
+    function algo2(){
+      if(list1.includes("2번 회로") == false){
+        list1.push("2번 회로","\n");
+        document.getElementById("sl").innerHTML = list1;
+      }
+    }
+    function algo3(){
+      if(list1.includes("3번 회로") == false){
+        list1.push("3번 회로","\n");
+        document.getElementById("sl").innerHTML = list1;
+      }
+    }
+    function algo4(){
+      if(list1.includes("4번 회로") == false){
+        list1.push("4번 회로","\n");
+        document.getElementById("sl").innerHTML = list1;
+      }
+    }
+    function reset1(){
+      list1.splice(0,list1.length);
+      document.getElementById("sl").removeChild(sl.childNodes[0]);
+    }
+
+    function random(){
+      var arr = [];
+      for(i = 0; arr.length <= 5; i++){
+        var num = Math.floor(Math.random() * 45 + 1);
+        if(arr.indexOf(num) == -1){
+          arr.push(num);
+        }
+      }
+      list2.push(arr.sort(function(a,b){return a - b;}),"\n");
+      document.getElementById("rl").innerHTML = list2;
+    }
+    function reset2(){
+      list2.splice(0,list2.length);
+      document.getElementById("rl").removeChild(rl.childNodes[0]);
+    }
+  </script>
+  </head>
+
+<body>
+  <div id="sel">
+    <div id="but">
+    <button type="button" onclick="algo1()"> 최근당첨번호 제외 </button>
+    <button type="button" onclick="algo2()"> 지난당첨번호 선택 제외</button>
+    <button type="button" onclick="algo3()"> 무작위 여섯 숫자 제외 </button>
+    <button type="button" onclick="algo4()"> 특정 숫자 선택 제외 </button>
+    </div>
+    <div id="sl">
+
+    </div>
+    <div id="re1">
+      <button type="button"> 선택 </button>
+      <button type="button" onclick="reset1()"> 리셋 </button>
+    </div>
+  </div>
+  <div id="res">
+    <div>
+
+    </div>
+    <div id="rl">
+    </div>
+    <div id="but2">
+      <button type="button" onclick="random()"> 출력 </button>
+      <button type="button" onclick="reset2()"> 리셋 </button>
+    </div>
+  </div>
+</body>
+</html>

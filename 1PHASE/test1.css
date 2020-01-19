@@ -1,0 +1,10 @@
+#main1 {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  border: solid 2px black;
+}
+
+#main2 {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
