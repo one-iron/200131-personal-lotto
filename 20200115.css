@@ -74,7 +74,7 @@
 }
 #_1bodybox0item{
   text-align: center;
-  font-size: x-large;
+  font-size: large;
   height: 600px;
   line-height:180%;
   letter-spacing: 2px;
@@ -108,6 +108,9 @@
   height: 1000px;
   line-height:180%;
   letter-spacing: 2px;
+}
+#rep{
+  font-size: large;
 }
 #_1bodybox4{
 

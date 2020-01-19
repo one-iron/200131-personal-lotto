@@ -1,6 +1,6 @@
 var result1 = [];
 var random6num = [];
-var winnums = [19,32,37,40,41,43];
+var winnums = [1,15,17,23,25,41];
 var winnumscheck = [];
 var color = ["red","orange","olive","green","brown","violet","yellow","pink","purple","blue"]
 
