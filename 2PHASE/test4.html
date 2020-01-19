@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kor" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jua|Noto+Serif+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="test4.css">
+    <script src="test4.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body style="background-color: #bccad6;">
+    <div id="main1">
+      <div id="main1Butt1">
+        <div id="delList">① 행복회로 알고리즘</div>
+        <select id="sel1">
+          <option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;지난 당첨번호 선택</option>
+          <option>20년1월4일 당첨번호</option>
+          <option>19년12월28일 당첨번호</option>
+          <option>19년12월21일 당첨번호</option>
+        </select>
+        <div id ="btn1" type="button" onclick="ALGO1()">지난 당첨번호 제외</div>
+        <div id ="btn2" type="button" onclick="ALGO2()">무작위 여섯숫자 제외</div>
+      </div>
+      <div id="main1ListBox">
+        <div id="delList">② 선택한 행복회로</div>
+        <div id="main1List"></div>
+        <div id="main1Butt2">
+          <div id="btn3" type="button" onclick="reset1()">RESET</div>
+          <div id="btn4" type="button" onclick="check()">출력하기</div>
+        </div>
+      </div>
+    </div>
+    <div id="main2">
+      <div id="main2ResultBox">
+        <div id="delList">행복회로 알고리즘 결과</div>
+        <div id="result"></div>
+        <div id="btn5" type="button" onclick="reset3()">RESET</div>
+            <!-- 라이브리 시티 설치 코드 -->
+        <div id="lv-container" data-id="city" data-uid="MTAyMC80ODI1Ni8yNDc1Mg==">
+          <script type="text/javascript">
+            window.liverOptions = { refer: 'https://one-iron.github.io/project01/season1/test4.html'};
+           (function(d, s) {
+               var j, e = d.getElementsByTagName(s)[0];
+
+               if (typeof LivereTower === 'function') { return; }
+
+               j = d.createElement(s);
+               j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+               j.async = true;
+
+               e.parentNode.insertBefore(j, e);
+           })(document, 'script');
+          </script>
+        <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+        </div>
+        <!-- 시티 설치 코드 끝 -->
+      </div>
+    </div>
+  </body>
+</html>
