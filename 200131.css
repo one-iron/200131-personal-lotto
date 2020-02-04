@@ -127,7 +127,7 @@ whiteBarcode {
 }
 .rn a {
 	width: 50px;
-	margin: 8px auto;
+	margin: 0 auto;
 	display: block;
 	font-size: 10px;
 	text-decoration: none;
