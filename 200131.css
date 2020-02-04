@@ -8,7 +8,7 @@
 }
 .dsBox {
 	display: inline-block;
-	width: 200px;
+	width: 150px;
 }
 .dsBox img {
 	display: block;
@@ -19,7 +19,7 @@
 .ds {
 	display: inline-block;
 	border: 1px crimson solid;
-	width: 200px;
+	width: 150px;
 	height: 500px;
 }
 .dsHead {
