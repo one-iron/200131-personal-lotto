@@ -8,7 +8,7 @@
 }
 .dsBox {
 	display: inline-block;
-	width: 140px;
+	width: 180px;
 }
 .dsBox img {
 	display: block;
@@ -19,7 +19,7 @@
 .ds {
 	display: inline-block;
 	border: 1px crimson solid;
-	width: 140px;
+	width: 180px;
 	height: 500px;
 }
 .dsHead {
@@ -113,7 +113,7 @@ whiteBarcode {
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 40px;
-	width: 140px;
+	width: 180px;
 	height: 380px;
 	overflow: scroll;
 	padding: 20px;
