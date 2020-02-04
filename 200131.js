@@ -244,6 +244,7 @@ function onc(n){ // 번호 선택 함수
      // sdnCheck++ ;
      // document.getElementById("sdnBox").innerHTML = sdnCheck;
      rdn2.push(n);
+     sdnCheck++;
      document.getElementById("sdnBox").innerHTML = sdnCheck;
      document.getElementById("on"+n).style.color = "black";
      document.getElementById("on"+n).style.backgroundColor = "black";
