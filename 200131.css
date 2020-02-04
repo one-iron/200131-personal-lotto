@@ -1,0 +1,144 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dsBox {
+	display: inline-block;
+	width: 140px;
+}
+.dsBox img {
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.ds {
+	display: inline-block;
+	border: 1px crimson solid;
+	width: 140px;
+	height: 500px;
+}
+.dsHead {
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	border: 1px crimson solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	align-content: center;
+	text-align: center;
+	height: 20px;
+}
+
+#dsHead1 {
+	border: 1px crimson solid;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	height: 20px;
+	color: red;
+	font-weight: bold;
+}
+#dsHead2 {
+	background-color: crimson;
+	color: white;
+	font-weight: bold;
+}
+.nb {
+	display: grid;
+	grid-template-columns: repeat(7,1fr);
+	column-gap: 5px;
+	align-content: center;
+	justify-content: center;
+	font-size: 10px;
+	margin: 10px 5px 10px 5px;
+	text-align: center;
+}
+.nbon {
+	color: red;
+	border: 1px red solid;
+	border-right: none;
+	border-left: none;
+	border-radius: 2px;
+}
+.dsOption {
+	display: grid;
+	grid-template-columns: 6fr 1fr;
+	grid-row-gap: 5px;
+	font-size: 10px;
+	color: red;
+	margin-top: 20px;
+}
+.dsOption div {
+	width: 13px;
+	border: 1px red solid;
+	border-right: none;
+	border-left: none;
+	border-radius: 2px;
+	color: black;
+	justify-self: center;
+	text-align: center;
+}
+.dsOption a {
+	color: red;
+	text-decoration: none;
+	text-align: right;
+	font-weight: bold;
+	align-self: center;
+	font-size: 10px;
+}
+.dsfooter {
+	display: grid;
+	grid-template-columns: repeat(15, 1fr)
+}
+blackBarcode {
+	background-color: black;
+}
+whiteBarcode {
+	color: white;
+}
+
+.rn {
+	width: 200px;
+	height: 500px;
+}
+#p {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(20, 1fr);
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 140px;
+	height: 380px;
+	overflow: scroll;
+	padding: 20px;
+	border: 1px crimson solid;
+	border-radius: 4px;
+}
+
+#p span{
+	font-size: 11px;
+	text-align: center;
+}
+.rn a {
+	width: 50px;
+	margin: 8px auto;
+	display: block;
+	font-size: 10px;
+	text-decoration: none;
+	color: gray;
+	text-align: center;
+	font-weight: bold;
+}
+.in {
+	display: inline-block;
+}
+
+.em {
+	display: inline-block;
+}
