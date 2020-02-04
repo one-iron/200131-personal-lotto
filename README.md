@@ -1,6 +1,6 @@
 * 1단계 : [1-1](https://one-iron.github.io/PRO01/1PHASE/happy.html) / [1-2](https://one-iron.github.io/PRO01/1PHASE/happy2.html) / [1-3](https://one-iron.github.io/PRO01/1PHASE/test1.html) / [1-4](https://one-iron.github.io/PRO01/1PHASE/test2.html)
 * 2단계 : [2-1](https://one-iron.github.io/PRO01/2PHASE/test4.html) / [2-2](https://one-iron.github.io/PRO01/2PHASE/test5.html)
-* 3단계 : [3-1](https://one-iron.github.io/PRO01/20200115.html) [3-2](https://one-iron.github.io/PRO01/200131.html)
+* 3단계 : [3-1](https://one-iron.github.io/PRO01/20200115.html) / [3-2](https://one-iron.github.io/PRO01/200131.html)
 
 정말 난생처음 웹을 만들어서 그런지 별거 아니지만 조금씩 조금씩 하다보니 오래 걸렸다. 꼼꼼하지 못한 성격이라 중간중간에 배운점들을 적어두지 않아서 아쉽지만, 시간을 내서 다시한번 코드들을 보면서 어느 부분에서 막혔는지, 또 어떻게 풀었는지, 다른 좋은 방법이 있지 않았는지에 대해서 고민을 해봐야할 것 같다.
 
