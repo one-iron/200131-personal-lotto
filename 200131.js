@@ -236,13 +236,10 @@ function rdnb(){ // 랜덤 여섯번호 만들기
 }
 
 function onc(n){ // 번호 선택 함수 
-  
-   if(rdn2.indexOf(n) >= 0){
+   if(rdn2.indexOf(n) >= 0 || rwnCheck !== 0){
       alert(`선택하신 번호(${n})는 이미 제외되어 있습니다. 😄`);
     }
     else if(rdn2.indexOf(n) == -1){
-     // sdnCheck++ ;
-     // document.getElementById("sdnBox").innerHTML = sdnCheck;
      rdn2.push(n);
      sdnCheck++;
      document.getElementById("sdnBox").innerHTML = sdnCheck;
